@@ -79,13 +79,13 @@ int mashaYearMoney = mashaMoney * 12;
 int mashaYearMoneyWithPromotion = mashaPromotionDif * 12;
 int mashaDif = mashaYearMoneyWithPromotion - mashaYearMoney;
 System.out.println ("Маша теперь получает " + mashaPromotionDif + " рублей в месяц." + " Годовой доход вырос на " + mashaDif + " рублей");
-int denisYearMoney = (int) (denisMoney * 12);
-int denisYearMoneyWithPromotion = (int) (denisPromotionDif * 12);
-int denisDif = (int) (denisYearMoneyWithPromotion - denisYearMoney);
+int denisYearMoney = denisMoney * 12;
+int denisYearMoneyWithPromotion = denisPromotionDif * 12;
+int denisDif = denisYearMoneyWithPromotion - denisYearMoney;
 System.out.println("Денис теперь получает " + denisPromotionDif + " рублей в месяц." + " Годовой доход вырос на " + denisDif + " рублей");
-int krisYearMoney = (int) (krisMoney * 12);
-int krisYearMoneyWithPromotion = (int) (krisPromotionDif * 12);
-int krisDif = (int)  (krisYearMoneyWithPromotion - krisYearMoney);
+int krisYearMoney = krisMoney * 12;
+int krisYearMoneyWithPromotion = krisPromotionDif * 12;
+int krisDif = krisYearMoneyWithPromotion - krisYearMoney;
 System.out.println("Кристина теперь получает " + krisPromotionDif + " рублей в месяц." + " Годовой доход вырос на " + krisDif + " рублей");
 
     }
