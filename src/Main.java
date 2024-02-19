@@ -96,5 +96,6 @@ int krisYearMoneyWithPromotion = krisPromotionDif * period;
 int krisDif = krisYearMoneyWithPromotion - krisYearMoney;
 System.out.println("Кристина теперь получает " + krisPromotionDif + " рублей в месяц." + " Годовой доход вырос на " + krisDif + " рублей");
 
+
     }
 }
